@@ -366,25 +366,3 @@ ChallengeHub uses MongoDB as its primary datastore.
 
 ---
 
-## Screenshots
-
-> *Screenshots of ChallengeHub user interface:*
-
-| Dashboard | Explore Challenges |
-| :---: | :---: |
-| *(Screenshot Placeholder: User Dashboard)* | *(Screenshot Placeholder: Challenges Listing)* |
-
-| Challenge Details & Tasks | Submission Review |
-| :---: | :---: |
-| *(Screenshot Placeholder: Challenge Details & Progress)* | *(Screenshot Placeholder: Creator Review Panel)* |
-
----
-
-## Future Enhancements
-
-- [ ] WebSockets / Server-Sent Events (SSE) for instant real-time notification push.
-- [ ] Cloud object storage support (AWS S3 / Google Cloud Storage / Cloudinary) for proof uploads.
-- [ ] Streak tracking and daily check-in reminders.
-- [ ] Leaderboard system with gamified points and badges.
-- [ ] Social comments and community discussion threads per challenge.
-
