@@ -1,0 +1,77 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Environment files and credentials
+.env
+.env.*
+!.env.example
+*.env
+*.env.*
+!*.env.example
+
+# Production builds
+dist/
+dist-ssr/
+build/
+*/dist/
+*/build/
+
+# Uploaded files and user-generated content (keep directory structure)
+backend/uploads/*
+!backend/uploads/.gitkeep
+uploads/*
+!uploads/.gitkeep
+
+# Logs and debug output
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Coverage and testing
+coverage/
+*.lcov
+.nyc_output/
+
+# Cache directories
+.cache/
+.eslintcache/
+*.tsbuildinfo
+
+# IDE and Editor files
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS-generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+[Dd]esktop.ini
+
+# Database dumps
+*.dump
+*.sql
+*.sqlite
+*.db
+mongod.lock
+
+# Temporary and backup files
+tmp/
+temp/
+*.tmp
+*.bak
+

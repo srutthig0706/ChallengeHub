@@ -1,0 +1,30 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary: #6c47ff;
+  --primary-dark: #5535e0;
+  --text: #1a1a2e;
+  --text-muted: #6b7280;
+  --bg: #ffffff;
+  --bg-subtle: #f8f7ff;
+  --border: #e5e7eb;
+  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
+}
+
+body {
+  font-family: var(--sans);
+  color: var(--text);
+  background: var(--bg);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
